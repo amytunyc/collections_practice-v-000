@@ -41,3 +41,7 @@ end
 def sum_array(integer)
   integer.inject {|result, element| result + element}
 end
+
+def add_s(array)
+  
+end
