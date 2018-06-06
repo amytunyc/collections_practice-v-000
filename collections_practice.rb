@@ -24,7 +24,7 @@ def reverse_array(integer)
   integer.reverse.to_a
 end
 
-def kesha_maker(strings)
+def kesha_maker(string)
   kesha=[]
   string.each do |word|
     word_array = word.split ""
@@ -32,4 +32,8 @@ def kesha_maker(strings)
     kesha = word_array.join
   end
   kesha 
+end
+
+def find_a(string)
+  
 end
