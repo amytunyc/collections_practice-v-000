@@ -1,9 +1,9 @@
-def sort_array_asc(number)
-  number.sort 
+def sort_array_asc(integer)
+  integer.sort 
 end
 
-def sort_array_desc(number)
-  number.sort {|x,y| y<=>x}
+def sort_array_desc(integer)
+  integer.sort {|x,y| y<=>x}
 end
 
 def sort_array_char_count(string)
@@ -20,4 +20,6 @@ def swap_elemts_from_to(array, index, destination_index)
   array
 end
 
-def 
+def reverse array(integer)
+  integer.reverse.to_a 
+end
