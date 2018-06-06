@@ -20,7 +20,7 @@ def swap_elemts_from_to(array, index, destination_index)
   array
 end
 
-def reverse array(integer)
+def reverse_array(integer)
   new_array = integer.reverse
   new_array
 end
