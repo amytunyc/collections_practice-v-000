@@ -25,5 +25,6 @@ def reverse_array(integer)
 end
 
 def kesha_maker(strings)
+  kesha=[]
   
 end
