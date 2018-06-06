@@ -3,4 +3,4 @@ def sort_array_asc(number)
 end
 
 def sort_array_desc(number)
-  number.sort {}
+  number.sort {|x,y| y<=>x}
