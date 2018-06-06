@@ -27,6 +27,6 @@ end
 def kesha_maker(strings)
   kesha=[]
   string.each do |word|
-    word.array = word.split ""
-    
+    word_array = word.split ""
+    word
 end
